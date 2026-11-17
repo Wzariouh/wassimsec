@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — WassimSec</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         background: #0a0f18; color: #e6edf5; line-height: 1.65; }
+  main { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; letter-spacing: -0.02em; }
+  h2 { font-size: 1.05rem; margin: 34px 0 6px; color: #38bdf8; }
+  p, li { color: #d7e2ee; }
+  .meta { color: #7f90a5; font-size: 0.9rem; }
+  .box { border: 1px solid #1e2a3b; border-radius: 12px; padding: 16px 20px; background: #0e1622; }
+  a { color: #22d3ee; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #1e2a3b; color: #7f90a5;
+           font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">WassimSec · Last updated: 17 November 2026</p>
+
+  <div class="box">
+    <strong>Short version:</strong> the app runs on the operator's own computer. It does not collect,
+    sell or share personal data from anyone. The only data it handles is the TikTok authorization
+    token of the account owner.
+  </div>
+
+  <h2>1. Who this policy covers</h2>
+  <p>WassimSec is a private desktop application used by a single operator. It has no visitors,
+     accounts or customers, so no personal data from third parties is processed.</p>
+
+  <h2>2. What data the app handles</h2>
+  <ul>
+    <li><strong>TikTok OAuth token</strong> (access and refresh token) issued by TikTok Login Kit
+        after the owner authorizes the app.</li>
+    <li><strong>Basic account information</strong> returned by the <code>user.info.basic</code>
+        scope: the account's display name and username.</li>
+    <li><strong>The video files</strong> generated locally and uploaded to the owner's account.</li>
+  </ul>
+
+  <h2>3. Where the data is stored</h2>
+  <p>Tokens are stored only on the operator's computer, in the user's private configuration folder
+     (<code>~/.config/canal-tiktok/</code>) with file permissions restricted to the owner. No server,
+     database or cloud storage is used.</p>
+
+  <h2>4. What the app does not do</h2>
+  <ul>
+    <li>No analytics, tracking pixels, advertising or profiling.</li>
+    <li>No collection of data from other TikTok users or from website visitors.</li>
+    <li>No selling, renting or sharing of data with third parties.</li>
+    <li>No reading of private messages, followers or content the owner did not create.</li>
+  </ul>
+
+  <h2>5. This website</h2>
+  <p>These pages are static HTML. They do not set cookies, do not load external resources and do not
+     collect access logs for marketing purposes.</p>
+
+  <h2>6. Data retention and deletion</h2>
+  <p>Tokens are kept until the owner revokes access. Access can be revoked at any time from the
+     TikTok app (<em>Settings → Security and permissions → Manage app permissions</em>) or by deleting
+     the local folder <code>~/.config/canal-tiktok/</code>. Once access is revoked, the app can no
+     longer act on the account.</p>
+
+  <h2>7. Children</h2>
+  <p>The app is not directed at children and is not distributed to them.</p>
+
+  <h2>8. Changes</h2>
+  <p>If this policy changes, the date at the top of the page will be updated.</p>
+
+  <h2>9. Contact</h2>
+  <p>Privacy questions or deletion requests:
+     <a href="mailto:wassimzariou@gmail.com">wassimzariou@gmail.com</a></p>
+
+  <footer>
+    <a href="index.html">Home</a> ·
+    <a href="terms.html">Terms of Service</a>
+  </footer>
+</main>
+</body>
+</html>
